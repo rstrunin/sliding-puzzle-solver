@@ -12,7 +12,6 @@ public class Main {
         // {{1, 2, 3, 4}, {6, 5, 8, 7}, {11, 13, 9, 12}, {10, 14, 15, 0}}
 
         Puzzle puzzle = new Puzzle(new int[][] {{1, 2, 3, 4}, {6, 5, 8, 7}, {11, 13, 9, 12}, {10, 14, 15, 0}});
-        puzzle.isCorrect();
         Solver solver = new Solver(puzzle);
         solver.run();
     }
